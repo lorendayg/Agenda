@@ -1,5 +1,5 @@
 <?php
-    include "conexion.php";
+    include "Conexion.php";
 
     class Crud extends conexion{
 
