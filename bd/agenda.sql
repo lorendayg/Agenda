@@ -35,20 +35,14 @@ CREATE TABLE `t_contactos` (
   `telefono` varchar(20) NOT NULL,
   `correo` varchar(20) NOT NULL,
   `descripcion` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `t_fotos`
---
+) 
 
 CREATE TABLE `t_fotos` (
   `id` int(11) NOT NULL,
   `id_contacto` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `ruta` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 --
 -- Índices para tablas volcadas
