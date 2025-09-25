@@ -3,9 +3,9 @@
         // servidor (localhost), usuario, password, base son los 4 elementos minimos para hacer una conexion 
         public function conectar(){
             $host = "localhost";
-            $usuario = "backend";
-            $password = "backend2025";
-            $base = "b221190089_agenda";
+            $usuario = "root";
+            $password = "";
+            $base = "agenda";
             $conexion = mysqli_connect(
                 $host, $usuario, $password, $base
             );
